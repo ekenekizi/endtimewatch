@@ -11,6 +11,24 @@ const downloadOverlay = document.querySelector(".download-modal-overlay");
 const downloadModal = document.querySelector(".download-modal");
 const downloadBtn = document.querySelectorAll(".download-cta");
 
+// download
+
+function downloadPDF() {
+  const link = document.createElement("a");
+  link.href = "./assets/The-Trumpet-book.pdf";
+  link.download = "The Trumpet is Blowing.pdf";
+
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+}
+
+downloadBtn.forEach((btn) => {
+  btn.addEventListener("click", function () {
+    downloadPDF();
+  });
+});
+
 downloadBtn.forEach((btn) =>
   btn.addEventListener("click", function (e) {
     e.preventDefault();

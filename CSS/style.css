@@ -128,7 +128,9 @@ font-weights: 300, 400, 500, 600*/
 }
 
 .hero-section {
-  background: linear-gradient(rgba(15, 23, 42, 0.7), rgba(15, 23, 42, 0.7)), url(/assets/hero-img.jpg);
+  background:
+    linear-gradient(rgba(15, 23, 42, 0.7), rgba(15, 23, 42, 0.7)),
+    url(/assets/hero-img.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -809,7 +811,9 @@ font-weights: 300, 400, 500, 600*/
   border-radius: 8px;
   opacity: 0;
   pointer-events: none;
-  transition: opacity 0.3s ease, transform 0.3s ease;
+  transition:
+    opacity 0.3s ease,
+    transform 0.3s ease;
 }
 
 .show {
@@ -818,7 +822,7 @@ font-weights: 300, 400, 500, 600*/
 }
 
 :root,
-[data-theme=light] {
+[data-theme="light"] {
   --modal-bg: #fefcfa;
   --modal-overlay-bg: rgba(0, 0, 0, 0.5);
   --content-bg-alt: #f9fbfc;
@@ -843,7 +847,7 @@ font-weights: 300, 400, 500, 600*/
   --ending-shadow: rgba(253, 224, 144, 0.3);
 }
 
-[data-theme=dark] {
+[data-theme="dark"] {
   --modal-bg: #0f1623;
   --modal-overlay-bg: rgba(0, 0, 0, 0.7);
   --content-bg-alt: #1a2435;
@@ -1434,7 +1438,9 @@ font-weights: 300, 400, 500, 600*/
   border-radius: 8px;
   opacity: 0;
   pointer-events: none;
-  transition: opacity 0.3s ease, transform 0.3s ease;
+  transition:
+    opacity 0.3s ease,
+    transform 0.3s ease;
 }
 
 .toast.show {
@@ -1446,7 +1452,9 @@ font-weights: 300, 400, 500, 600*/
 .modal {
   opacity: 0;
   pointer-events: none;
-  transition: opacity 0.3s ease, transform 0.3s ease;
+  transition:
+    opacity 0.3s ease,
+    transform 0.3s ease;
 }
 
 .modal {
@@ -1480,7 +1488,9 @@ font-weights: 300, 400, 500, 600*/
   transform: translate(-50%, -50%);
   background: linear-gradient(160deg, #0a1525 0%, #0b1a2e 60%, #07101c 100%);
   border: 1px solid #8a6a2a;
-  box-shadow: 0 0 0 1px #5a4010 inset, 0 8px 48px rgba(0, 0, 0, 0.7);
+  box-shadow:
+    0 0 0 1px #5a4010 inset,
+    0 8px 48px rgba(0, 0, 0, 0.7);
   z-index: 1001;
   width: 52rem;
   max-height: 92vh;
@@ -1541,7 +1551,9 @@ font-weights: 300, 400, 500, 600*/
   border-radius: 0.8rem;
   color: #c9a94a;
   opacity: 0.7;
-  transition: opacity 0.2s, background 0.2s;
+  transition:
+    opacity 0.2s,
+    background 0.2s;
 }
 .download-modal__heading-wrapper .close-icon-wrapper:hover {
   cursor: pointer;
@@ -1630,7 +1642,8 @@ font-weights: 300, 400, 500, 600*/
   color: #c9a94a;
   letter-spacing: 0.05em;
 }
-.download-modal__verse::before, .download-modal__verse::after {
+.download-modal__verse::before,
+.download-modal__verse::after {
   content: " — ";
   color: #7a6030;
 }
@@ -1695,12 +1708,13 @@ font-weights: 300, 400, 500, 600*/
   justify-content: center;
   gap: 0.8rem;
 }
-.download-modal__contact-wrapper ion-icon, .download-modal__contact-wrapper-icon {
+.download-modal__contact-wrapper ion-icon,
+.download-modal__contact-wrapper-icon {
   font-size: 2rem;
   color: #c9a94a;
 }
 .download-modal__contact-wrapper p {
-  font-family: "EB Garamond", "Georgia", serif;
+  fmily: "EB Garamond", "Georgia", serif;
   font-size: 1.6rem;
   color: #a8bdd0;
   margin: 0;
@@ -1732,7 +1746,9 @@ font-weights: 300, 400, 500, 600*/
 .download-modal {
   opacity: 0;
   pointer-events: none;
-  transition: opacity 0.3s ease, transform 0.3s ease;
+  transition:
+    opacity 0.3s ease,
+    transform 0.3s ease;
 }
 
 .download-modal {
