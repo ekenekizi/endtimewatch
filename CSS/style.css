@@ -1291,8 +1291,20 @@ font-weights: 300, 400, 500, 600*/
   }
 }
 .modal-card__description {
+  /* font-family: Georgia, "Times New Roman", serif; */
   line-height: 1.8;
   color: var(--text-primary);
+  /* line-height: 1.45; */
+  text-align: left;
+}
+
+.modal-card__description-first::first-letter {
+  float: left;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 5.2rem;
+  line-height: 0.72;
+  margin-right: 5px;
+  margin-top: 7px;
 }
 .modal-card__description span {
   font-weight: 700;
