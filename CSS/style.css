@@ -1104,7 +1104,7 @@ font-weights: 300, 400, 500, 600*/
 .modal__description {
   font-size: 2.5rem;
   color: var(--text-muted);
-  line-height: 1.6;
+  line-height: 1.4;
   font-family: "Inter", sans-serif;
 }
 @media (max-width: 48em) {
@@ -1206,7 +1206,7 @@ font-weights: 300, 400, 500, 600*/
   }
 }
 .modal__scripture {
-  line-height: 1.8;
+  line-height: 1.3;
   font-size: calc(1.8rem * var(--zoom));
 }
 @media (max-width: 48em) {
@@ -1292,7 +1292,7 @@ font-weights: 300, 400, 500, 600*/
 }
 .modal-card__description {
   /* font-family: Georgia, "Times New Roman", serif; */
-  line-height: 1.8;
+  line-height: 1.3;
   color: var(--text-primary);
   /* line-height: 1.45; */
   text-align: left;
@@ -1641,7 +1641,7 @@ font-weights: 300, 400, 500, 600*/
   font-size: 1.8rem;
   font-weight: 600;
   color: #e8c46a;
-  line-height: 1.45;
+  line-height: 1.3;
 }
 @media (max-width: 40em) {
   .download-modal__scripture {
@@ -1726,7 +1726,7 @@ font-weights: 300, 400, 500, 600*/
   color: #c9a94a;
 }
 .download-modal__contact-wrapper p {
-  fmily: "EB Garamond", "Georgia", serif;
+  family: "EB Garamond", "Georgia", serif;
   font-size: 1.6rem;
   color: #a8bdd0;
   margin: 0;
