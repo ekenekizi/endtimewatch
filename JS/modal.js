@@ -16,7 +16,7 @@ const downloadBtn = document.querySelectorAll(".download-cta");
 function downloadPDF() {
   const link = document.createElement("a");
   link.href = "./assets/The-Trumpet-book.pdf";
-  link.download = "The Trumpet book by Evangelist. Edwin nwachukwu Blowing.pdf";
+  link.download = "The Trumpet book by Evangelist, Edwin nwachukwu.pdf";
 
   document.body.appendChild(link);
   link.click();
