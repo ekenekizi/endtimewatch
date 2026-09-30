@@ -1841,3 +1841,65 @@ font-weights: 300, 400, 500, 600*/
 }
 
 /*# sourceMappingURL=style.css.map */
+.hero__scroll-cue {
+  position: absolute;
+  bottom: 2.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  color: #fff;
+  text-decoration: none;
+
+  cursor: pointer;
+}
+
+.hero__scroll-line {
+  width: 1px;
+  height: 35px;
+  margin-bottom: 0.8rem;
+
+  background: #d7b762;
+  opacity: 0.8;
+}
+
+.hero__scroll-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.hero__scroll-content span {
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.hero__scroll-content small {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.hero__scroll-cue ion-icon {
+  margin-top: 0.5rem;
+  font-size: 1.8rem;
+  color: #d7b762;
+
+  animation: scrollDown 1.8s ease-in-out infinite;
+}
+
+@keyframes scrollDown {
+  0%,
+  100% {
+    transform: translateY(0);
+    opacity: 0.6;
+  }
+
+  50% {
+    transform: translateY(7px);
+    opacity: 1;
+  }
+}
